@@ -102,7 +102,7 @@ body {
           float: left;
           cursor: move; }
         body #tasks ul li .textfield {
-          width: 55em;
+          width: 615px;
           border: none;
           padding: 3px; }
         body #tasks ul li .completion {

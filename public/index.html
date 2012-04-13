@@ -3,6 +3,7 @@
   <head>
     <title>Pomodoro Task Manager App</title>
     <link href='stylesheets/application.css' media='all' rel='stylesheet' type='text/css' />
+    <!--[if IE]><script src="javascripts/excanvas.js"></script><![endif]-->
   </head>
   <body>
     <div id='timer'>
@@ -20,7 +21,7 @@
         <li class='task'>
           <div class='handle'></div>
           <form class='task'>
-            <input class='textfield' name='name' type='text' />
+            <input class='textfield' name='name' tabindex='0' type='text' />
           </form>
           <div class='completion'>
             <a href='/'></a>
